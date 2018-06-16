@@ -24,7 +24,7 @@ if track ~= nil then
     value = reaper.GetMediaTrackInfo_Value(track, "I_RECARM") -- Track arm -- 0.0 or 1.0
     Print("Track arm: " .. value)
     
-    value = reaper.GetMediaTrackInfo_Value(track, "I_SOLO") -- Track soloe -- 0.0 or 2.0
+    value = reaper.GetMediaTrackInfo_Value(track, "I_SOLO") -- Track solo -- 0.0 or 2.0
     Print("Track solo: " .. value)
     
     value = reaper.GetMediaTrackInfo_Value(track, "B_MUTE") -- Track mute -- 0.0 or 1.0
